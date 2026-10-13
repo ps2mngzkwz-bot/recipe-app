@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mercimek Çorbası",
+    "category": "Soup",
+    "calories": 180,
+    "vegan": true,
+    "ingredients": ["Kırmızı mercimek", "Soğan", "Havuç", "Tereyağı", "Tuz"]
+  },
+  {
+    "name": "Margarita Pizza",
+    "category": "Mains",
+    "calories": 250,
+    "vegan": false,
+    "ingredients": ["Pizza hamuru", "Domates sosu", "Mozzarella", "Fesleğen"]
+  }
+]
