@@ -5,7 +5,6 @@
     android:background="#F8FAFC"
     android:orientation="vertical">
 
-    <!-- Header Banner & Search -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="👨‍🍳 Mutfak Sanatları"
+            android:text="Mutfak Sanatları"
             android:textColor="#F8FAFC"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -25,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Gastronomi & Özel Tarif Rehberi"
+            android:text="Gastronomi ve Özel Tarif Rehberi"
             android:textColor="#94A3B8"
             android:textSize="13sp" />
 
@@ -35,14 +34,14 @@
             android:layout_height="48dp"
             android:layout_marginTop="16dp"
             android:background="@android:color/white"
-            android:hint="🔍 Tarif veya malzeme ara..."
-            android:paddingHorizontal="16dp"
+            android:hint="Tarif veya malzeme ara..."
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:textColor="#0F172A"
             android:textColorHint="#94A3B8"
             android:textSize="14sp" />
     </LinearLayout>
 
-    <!-- Scrollable Recipe List -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
