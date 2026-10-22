@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             displayRecipes(allRecipes)
         } catch (e: Exception) {
             val errorView = TextView(this).apply {
-                text = "Tarifler yüklenirken bir hata oluştu: ${e.message}"
+                text = "An error occurred while loading recipes: ${e.message}"
                 setTextColor(Color.RED)
             }
             container.addView(errorView)
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
 
         if (recipes.isEmpty()) {
             val emptyView = TextView(this).apply {
-                text = "Aradığınız kriterlere uygun tarif bulunamadı."
+                text = "No recipes found matching your criteria."
                 textSize = 15f
                 setTextColor(Color.GRAY)
                 setPadding(16, 32, 16, 32)
@@ -87,11 +87,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         for (recipe in recipes) {
-            val name = recipe.optString("name", "Tarif")
-            val category = recipe.optString("category", "Genel")
-            val prepTime = recipe.optString("prepTime", "30 dk")
-            val difficulty = recipe.optString("difficulty", "Orta")
-            val calories = recipe.optInt("calories", 0)
+            val name = recipe.optString("name", "Recipe")
+            val category = recipe.optString("category", "General")
+            val prepTime = recipe.optString("prepTime", "30 min")
+            val difficulty = recipe.optString("difficulty", "Medium")
+            
+            // Kalori bilgisini JSON'dan alırken hata vermemesi için metin (String) olarak ayarladık
+            val calories = recipe.optString("calories", "0").replace(" kcal", "").trim()
             val isVegan = recipe.optBoolean("vegan", false)
 
             val ingredientsArray = recipe.optJSONArray("ingredients")
@@ -196,7 +198,7 @@ class MainActivity : AppCompatActivity() {
 
             // Malzemeler
             val ingredientsTitle = TextView(this).apply {
-                text = "🛒 Malzemeler"
+                text = "🛒 Ingredients"
                 textSize = 14f
                 setTypeface(null, Typeface.BOLD)
                 setTextColor(Color.parseColor("#334155"))
@@ -214,7 +216,7 @@ class MainActivity : AppCompatActivity() {
             // Hazırlanışı (Adım Adım)
             if (instructionsList.isNotEmpty()) {
                 val instructionsTitle = TextView(this).apply {
-                    text = "👨‍🍳 Hazırlanışı"
+                    text = "👨‍🍳 Instructions"
                     textSize = 14f
                     setTypeface(null, Typeface.BOLD)
                     setTextColor(Color.parseColor("#334155"))
