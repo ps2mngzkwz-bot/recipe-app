@@ -1,65 +1,65 @@
 [
   {
     "id": 1,
-    "name": "Süzme Mercimek Çorbası",
-    "category": "Çorba",
-    "prepTime": "25 dk",
-    "difficulty": "Kolay",
-    "calories": 180,
+    "name": "Strained Lentil Soup",
+    "category": "Soup",
+    "prepTime": "25 min",
+    "difficulty": "Easy",
+    "calories": "180 kcal",
     "vegan": true,
     "ingredients": [
-      "1 su bardağı kırmızı mercimek",
-      "1 adet kuru soğan",
-      "1 adet havuç",
-      "1 yemek kaşığı zeytinyağı",
-      "1 çay kaşığı tuz",
-      "5 su bardağı sıcak su"
+      "1 cup red lentils",
+      "1 onion",
+      "1 carrot",
+      "1 tablespoon olive oil",
+      "1 teaspoon salt",
+      "5 cups hot water"
     ],
     "instructions": [
-      "Soğan ve havucu yemeklik doğrayıp zeytinyağında soteleyin.",
-      "Yıkanmış mercimekleri ve sıcak suyu ekleyip mercimekler yumuşayana kadar pişirin.",
-      "Çorbayı pürüzsüz olana kadar blenderdan geçirin ve sıcak servis yapın."
+      "Chop the onion and carrot and sauté in olive oil.",
+      "Add the washed lentils and hot water, and cook until the lentils are tender.",
+      "Blend the soup until smooth and serve hot."
     ]
   },
   {
     "id": 2,
-    "name": "Biga Usulü Pizza Hamuru",
-    "category": "Ana Yemek",
-    "prepTime": "48 Saat",
-    "difficulty": "Orta",
-    "calories": 320,
+    "name": "Biga Method Pizza Dough",
+    "category": "Main Course",
+    "prepTime": "48 Hours",
+    "difficulty": "Medium",
+    "calories": "320 kcal",
     "vegan": true,
     "ingredients": [
-      "1 kg pizza unu (Tip 00)",
-      "1 g kuru maya",
-      "650 ml soğuk su",
-      "25 g tuz"
+      "1 kg pizza flour (Type 00)",
+      "1 g dry yeast",
+      "650 ml cold water",
+      "25 g salt"
     ],
     "instructions": [
-      "Un, maya ve suyun %60'ını karıştırarak ön maya (biga) hazırlayın ve 16 saat buzdolabında dinlendirin.",
-      "Kalan su ve tuzu ekleyip pürüzsüz bir hamur yoğurun.",
-      "Bezelere ayırıp 24-48 saat soğuk fermantasyon uygulayın."
+      "Prepare the pre-ferment (biga) by mixing the flour, yeast, and 60% of the water, and rest in the refrigerator for 16 hours.",
+      "Add the remaining water and salt, and knead into a smooth dough.",
+      "Divide into dough balls and apply cold fermentation for 24-48 hours."
     ]
   },
   {
     "id": 3,
-    "name": "Tulum Peynirli Çikolatalı Tatlı",
-    "category": "Tatlı",
-    "prepTime": "30 dk",
-    "difficulty": "İleri",
-    "calories": 290,
+    "name": "Tulum Cheese and Chocolate Dessert",
+    "category": "Dessert",
+    "prepTime": "30 min",
+    "difficulty": "Advanced",
+    "calories": "290 kcal",
     "vegan": false,
     "ingredients": [
-      "100g bitter çikolata (%70)",
-      "50g tulum peyniri",
-      "2 adet yumurta",
-      "30g tereyağı",
-      "1 yemek kaşığı bal"
+      "100g dark chocolate (70%)",
+      "50g tulum cheese",
+      "2 eggs",
+      "30g butter",
+      "1 tablespoon honey"
     ],
     "instructions": [
-      "Bitter çikolata ve tereyağını benmari usulü eritin.",
-      "Ufalanmış tulum peynirini ve balı çikolata karışımına ekleyin.",
-      "Kalıplara döküp 180°C fırında 10 dakika pişirin."
+      "Melt the dark chocolate and butter using a bain-marie.",
+      "Add the crumbled tulum cheese and honey to the chocolate mixture.",
+      "Pour into molds and bake in the oven at 180°C for 10 minutes."
     ]
   }
 ]
