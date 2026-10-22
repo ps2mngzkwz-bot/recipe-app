@@ -1,16 +1,65 @@
 [
   {
-    "name": "Mercimek Çorbası",
-    "category": "Soup",
+    "id": 1,
+    "name": "Süzme Mercimek Çorbası",
+    "category": "Çorba",
+    "prepTime": "25 dk",
+    "difficulty": "Kolay",
     "calories": 180,
     "vegan": true,
-    "ingredients": ["Kırmızı mercimek", "Soğan", "Havuç", "Tereyağı", "Tuz"]
+    "ingredients": [
+      "1 su bardağı kırmızı mercimek",
+      "1 adet kuru soğan",
+      "1 adet havuç",
+      "1 yemek kaşığı zeytinyağı",
+      "1 çay kaşığı tuz",
+      "5 su bardağı sıcak su"
+    ],
+    "instructions": [
+      "Soğan ve havucu yemeklik doğrayıp zeytinyağında soteleyin.",
+      "Yıkanmış mercimekleri ve sıcak suyu ekleyip mercimekler yumuşayana kadar pişirin.",
+      "Çorbayı pürüzsüz olana kadar blenderdan geçirin ve sıcak servis yapın."
+    ]
   },
   {
-    "name": "Margarita Pizza",
-    "category": "Mains",
-    "calories": 250,
+    "id": 2,
+    "name": "Biga Usulü Pizza Hamuru",
+    "category": "Ana Yemek",
+    "prepTime": "48 Saat",
+    "difficulty": "Orta",
+    "calories": 320,
+    "vegan": true,
+    "ingredients": [
+      "1 kg pizza unu (Tip 00)",
+      "1 g kuru maya",
+      "650 ml soğuk su",
+      "25 g tuz"
+    ],
+    "instructions": [
+      "Un, maya ve suyun %60'ını karıştırarak ön maya (biga) hazırlayın ve 16 saat buzdolabında dinlendirin.",
+      "Kalan su ve tuzu ekleyip pürüzsüz bir hamur yoğurun.",
+      "Bezelere ayırıp 24-48 saat soğuk fermantasyon uygulayın."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tulum Peynirli Çikolatalı Tatlı",
+    "category": "Tatlı",
+    "prepTime": "30 dk",
+    "difficulty": "İleri",
+    "calories": 290,
     "vegan": false,
-    "ingredients": ["Pizza hamuru", "Domates sosu", "Mozzarella", "Fesleğen"]
+    "ingredients": [
+      "100g bitter çikolata (%70)",
+      "50g tulum peyniri",
+      "2 adet yumurta",
+      "30g tereyağı",
+      "1 yemek kaşığı bal"
+    ],
+    "instructions": [
+      "Bitter çikolata ve tereyağını benmari usulü eritin.",
+      "Ufalanmış tulum peynirini ve balı çikolata karışımına ekleyin.",
+      "Kalıplara döküp 180°C fırında 10 dakika pişirin."
+    ]
   }
 ]
